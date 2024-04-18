@@ -13,7 +13,7 @@ let button3 = document.querySelector('#button3');
 button1.addEventListener('click', ()=>{
     if(i >= 0 && i <= 9){
         i++
-        number.innerHTML = i;
+        document.querySelector('.number').innerHTML = i;
     }
 })
 
